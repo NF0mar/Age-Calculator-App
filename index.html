@@ -4,9 +4,32 @@
     <meta charset="UTF-8" />
     <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Age Calculator</title>
   </head>
   <body>
-    
+    <main class="main">
+      <form action="" class="form">
+        <section class="input-section">
+          <label for="Day" class="label1">Day</label>
+          <input type="text" class=" input day" placeholder="DD">
+          <label for="Month" class="label2">Month</label>
+          <input type="text" class="input month" placeholder="MM">
+          <label for="Year" class="label3">Year</label>
+          <input type="text" class="input year" placeholder="YYYY">
+        </section>
+        <div class="hr-btn">
+          <hr class="line">
+          <button class="btn ">
+            <img src="/assets/images/icon-arrow.svg" alt="submit button">
+          </button>
+        </div>
+      </form>
+      <section class="result-section">
+        <p class="results"><span class="results__num">38</span>years</p>
+        <p class="results"><span class="results__num">3</span>months</p>
+        <p class="results"><span class="results__num">26</span>days</p>
+      </section>
+    </main>
   </body>
 </html>
