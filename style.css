@@ -147,7 +147,7 @@ body {
 .input-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1.313rem 1fr;
+  grid-template-rows: 1.313rem 1fr ;
   column-gap: 2rem;
   margin-right: 8.5rem;
 }
@@ -157,7 +157,7 @@ label {
   color: var(--clr-accent-200);
   font-weight: var(--fw-bold);
   font-size: var(--fs-heading);
-  margin-bottom: 0.75rem;
+  margin-bottom: 2rem;
   letter-spacing: 0.219rem;
 }
 .label1 {
@@ -182,7 +182,15 @@ label {
   grid-column: 2/3;
   grid-row: 2/3;
 }
+/* .erro1 {
+  
+}
+.erro2 {
 
+}
+.erro3 {
+
+} */
 .year {
   grid-column: 3/4;
   grid-row: 2/3;
