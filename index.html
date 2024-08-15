@@ -5,21 +5,28 @@
     <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <script src="/main.js"></script>
     <title>Age Calculator</title>
   </head>
   <body>
     <main class="main">
       <form action="" class="form">
         <section class="input-section">
-          <label for="Day" class="label1">Day</label>
-          <input type="text" class=" input day" placeholder="DD">
-          <small class="error1">Error Message</small>
-          <label for="Month" class="label2">Month</label>
-          <input type="text" class="input month" placeholder="MM">
-          <small class="error2">Error Message</small>
-          <label for="Year" class="label3">Year</label>
-          <input type="text" class="input year" placeholder="YYYY">
-          <small class="error3">Error Message</small>
+          <div class="form-control">
+            <label for="Day" class="label1 label">Day</label>
+            <input type="text" class=" input day" placeholder="DD">
+            <small class="error1 errorMsg">Error Message</small>
+          </div>
+          <div class="form-control">
+            <label for="Month" class="label2 label">Month</label>
+            <input type="text" class="input month" placeholder="MM">
+            <small class="error2 errorMsg">Error Message</small>
+          </div>
+          <div class="form-control">
+            <label for="Year" class="label3 label">Year</label>
+            <input type="text" class="input year" placeholder="YYYY">
+            <small class="error3 errorMsg">Error Message</small>
+          </div>
         </section>
         <div class="hr-btn">
           <hr class="line">
